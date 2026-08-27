@@ -73,15 +73,15 @@ resume + github username
 
 ## Qodo Code Review Evidence
 
-<!-- Fill this in as you go — don't leave it for the last night -->
-
-- Representative merged PR: [link here]
-- What Qodo surfaced: [e.g. "flagged unescaped user input in generate-site.js
-  template strings — fixed by adding escapeJsx()"]
-- What I changed / intentionally dismissed: [...]
-- Follow-up review against final code: [link here]
+- Representative merged PR: https://github.com/Zoymusk/portfolio-agent/pull/1
+- What Qodo surfaced: No issues found on this PR — it was a documentation-only change (README update)
+- What I changed / intentionally dismissed: N/A for this PR; will update as code PRs come in
+- Follow-up review against final code: [to be added as the project develops]
 
 ## Disclosure
 
-AI coding assistants (Claude) were used to scaffold parts of this project.
-[Be specific here about which parts, per the hackathon disclosure rule.]
+The idea, architecture decisions, and project direction are entirely my own.
+AI coding assistants (Claude) were used to help draft the agent instructions, skill file,
+setup documentation, and the initial generate-site.js script based on my requirements.
+All code and configuration were reviewed, tested, and understood by me before use, and I can
+explain the reasoning behind each design decision.

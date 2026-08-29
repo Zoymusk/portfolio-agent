@@ -6,7 +6,8 @@ description: Use when drafting bio, about-section, or project-blurb copy for a p
 # Portfolio Copy
 
 Rules for turning resume bullet points and repo data into copy a human would
-actually want to read.
+actually want to read, and guidance for making the resulting site look
+considered rather than default.
 
 ## Tone
 - Short sentences. If a sentence needs a comma to hold two ideas, it's
@@ -39,4 +40,28 @@ development."
 
 ## When resume and GitHub data conflict
 Don't quietly favor one. Prefer what the GitHub research subagent verified
-over unverified resume claims, and note the gap if it's worth mentioning.
+over unverified resume claims, but before treating something as a
+contradiction, check whether it might just be a classification gap — e.g. a
+GitHub repo tagged by its dominant language (like "Java") can still be an
+Android project if it uses Kotlin/Compose alongside Java, or was
+misclassified by file extension alone. Read the README before concluding a
+claim is unverified. If it's a genuine gap, note it to the user in chat
+rather than baking an unverified claim into the site copy.
+
+## Visual design guidance for the generated site
+A portfolio site should look like it was designed, not like a default
+template. When generating the page:
+- Use a real type scale: a clearly larger, bolder heading for the name, a
+  distinct accent-colored subtitle for the role, and comfortable line-height
+  (1.6-1.7) for body text.
+- Pick one accent color and use it consistently for links, tags, and
+  highlights — don't scatter multiple unrelated colors.
+- Give project cards visual weight: a subtle border, rounded corners,
+  breathing room (padding) inside, and a hover state (slight lift, border
+  color change, or shadow) so the page feels interactive, not static.
+- Use consistent spacing between sections (generous, not cramped) so the
+  page doesn't feel like a wall of text.
+- Prefer a small number of skill tags per row with wrapping over a long
+  unbroken list.
+- Keep the overall page width constrained (readable line length) rather
+  than stretching content edge-to-edge on wide screens.

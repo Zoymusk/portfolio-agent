@@ -73,11 +73,12 @@ resume + github username
 
 ## Qodo Code Review Evidence
 
-- Representative merged PR: https://github.com/Zoymusk/portfolio-agent/pull/1
-- What Qodo surfaced: No issues found on this PR — it was a documentation-only change (README update)
-- What I changed / intentionally dismissed: N/A for this PR; will update as code PRs come in
-- Follow-up review against final code: [to be added as the project develops]
+- Merged PR: https://github.com/Zoymusk/portfolio-agent/pull/2
+- What Qodo found: Two High severity issues on the site the agent generated. First, I'd forgotten to add app/layout.js, which Next.js actually requires — without it the build would've failed. Second, the Next.js version I had (13.5.6) had known security issues that got      patched in a later release.
+- What I did: Upgraded Next.js to ^14.2.0, which fixed the security issue right away. Added the missing layout.js file with the required html and body tags. Qodo's re-scan didn't pick up the layout fix immediately, so I manually confirmed the file was correct and closed out that finding myself in the PR thread, with my reasoning documented there.
+- Follow-up: The Next.js version fix got auto-confirmed as resolved by Qodo. The layout fix I verified and dismissed manually — both are visible in the PR thread linked above.
 
+  
 ## Disclosure
 
 The idea, architecture decisions, and project direction are entirely my own.

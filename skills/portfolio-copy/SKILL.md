@@ -38,6 +38,18 @@ development."
   the scale).
 - Skip generic framing like "This project showcases my skills in..."
 
+## Privacy and personal details
+- Never include a phone number on the generated site, even if it appears in
+  the resume. Email is fine to include if the user provides one, but phone
+  numbers should be left out entirely.
+- Do not state the exact duration (in months or years) of any internship or
+  short-term role. Describe the role and what was done there without
+  specifying "X months" or "X years" — e.g. "Android Developer Intern at
+  MindMatrix, focused on GenAI features" rather than "Android Developer
+  Intern (9 months) at MindMatrix." If a duration must be shown at all, use
+  only start/end month-year (e.g. "Feb–May 2026") rather than a spelled-out
+  length, and only if the user explicitly asks for dates to be shown.
+
 ## When resume and GitHub data conflict
 Don't quietly favor one. Prefer what the GitHub research subagent verified
 over unverified resume claims, but before treating something as a
@@ -65,3 +77,6 @@ template. When generating the page:
   unbroken list.
 - Keep the overall page width constrained (readable line length) rather
   than stretching content edge-to-edge on wide screens.
+- Make the person's name the most visually dominant element on the page —
+  larger than the headline/tagline below it, not the same size or smaller.
+  It should read clearly as the page's title at a glance.

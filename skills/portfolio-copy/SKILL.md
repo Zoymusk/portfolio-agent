@@ -38,7 +38,7 @@ development."
   the scale).
 - Skip generic framing like "This project showcases my skills in..."
 
-  ## Privacy and personal details
+## Privacy and personal details
 - Never include a phone number on the generated site, even if it appears in
   the resume. Email is fine to include if the user provides one, but phone
   numbers should be left out entirely.

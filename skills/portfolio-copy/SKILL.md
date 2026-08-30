@@ -38,7 +38,7 @@ development."
   the scale).
 - Skip generic framing like "This project showcases my skills in..."
 
-## Privacy and personal details
+  ## Privacy and personal details
 - Never include a phone number on the generated site, even if it appears in
   the resume. Email is fine to include if the user provides one, but phone
   numbers should be left out entirely.
@@ -77,6 +77,3 @@ template. When generating the page:
   unbroken list.
 - Keep the overall page width constrained (readable line length) rather
   than stretching content edge-to-edge on wide screens.
-- Make the person's name the most visually dominant element on the page —
-  larger than the headline/tagline below it, not the same size or smaller.
-  It should read clearly as the page's title at a glance.
